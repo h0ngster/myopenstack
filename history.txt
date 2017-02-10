@@ -1,0 +1,32 @@
+    1  cd
+    2  vim
+    3  cd
+    4  vim zork.test
+    5  cat zork.test
+    6  vim zork.test
+    7  cat zork.test
+    8  rm zork.test
+    9  cd
+   10  ls
+   11  ssh controller
+   12  exit
+   13  ssh controller
+   14  cd
+   15  cd .ssh
+   16  vim config
+   17  ssh-keygen -t rsa -f id_rsa_mygithub
+   18  cat id_rsa_mygithub.pub
+   19  ssh -T git@github.com
+   20  cd
+   21  mkdir myopenstack
+   22  cd myopenstack/
+   23  git config --global user.name "Steve Hong"
+   24  git config --global user.email "steve@steve.com"
+   25  ls
+   26  git init
+   27  ls
+   28  cd .git
+   29  ls
+   30  cd..
+   31  cd ..
+   32  history > history.txt
